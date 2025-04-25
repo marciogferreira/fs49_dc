@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com HTML</title>
+</head>
+<body>
+    <div style="background-color: yellow;">
+      <h1 style="color: red; background: black;">Tabelas com HTML</h1>
+      <hr>
+      <table border="2">
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>C3</td>
+            <td>C4</td>
+        </tr>
+      </table>
+    </div>
+    
+    <hr>
+    <h2>Tabelas com Cabeçalhos</h2>
+    <table border="2">
+        <thead> <!-- thead - Tag para Informar que é Cabeçalho -->
+            <tr> <!-- tr - Tag de Linha -->
+                <th>Código</th> <!-- th - Tag para Coluna Centralizada -->
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Tag para Informar que é Corpo -->
+            <tr>
+                <td>001</td> <!-- td - Tag para Coluna -->
+                <td>José</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Maria Alice</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h2>Tabelas com Mesclagens</h2>
+    <table border="2">
+      <thead>
+        <tr>
+          <th colspan="5">Folha de Pedido</th>
+        </tr>
+        <tr>
+          <th>COD</th>
+          <th>Descrição</th>
+          <th>Qtde</th>
+          <th>Valor Unit</th>
+          <th>Sub Total</th>
+        </tr>
+        <!-- https://dontpad.com/fs49 -->
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Arroz</td>
+          <td>10</td>
+          <td>R$ 2,50</td>
+          <td>R$ 25,00</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Feijão</td>
+          <td>10</td>
+          <td>R$ 4,50</td>
+          <td>R$ 45,00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Assinatura: </td>
+          <td rowspan="2">R$ 70,00</td>
+        </tr>
+        <tr>
+          <td colspan="4">Total:</td>
+        </tr>
+      </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook - Entrar ou cadastrar</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+
+.left {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.left h1 {
+  color: #1877f2;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 24px;
+  color: #1c1e21;
+}
+
+.right {
+  background-color: #fff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+.login {
+  width: 100%;
+  padding: 14px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #165ecb;
+}
+
+.forgot {
+  display: block;
+  text-align: center;
+  margin: 12px 0;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #dddfe2;
+}
+
+.create-account {
+  background-color: #42b72a;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.create-account:hover {
+  background-color: #36a420;
+}
+
+.create-page {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.create-page a {
+  color: #1c1e21;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left">
+        <h1>facebook</h1>
+        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      </div>
+      <div class="right">
+        <form>
+          <input type="text" placeholder="Email ou telefone" required />
+          <input type="password" placeholder="Senha" required />
+          <button class="login">Entrar</button>
+          <a href="#" class="forgot">Esqueceu a senha?</a>
+          <hr />
+          <button class="create-account">Criar nova conta</button>
+        </form>
+        <p class="create-page"><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
