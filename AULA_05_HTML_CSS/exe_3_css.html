@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: white;
+            /* Alinhamento de Texto */
+            text-align: center;
+            /* Estilo de Fonte do Texto - Arial e etc */
+            font-family: Arial, Helvetica, sans-serif;
+            /* Para cada 1em = 16px */
+            font-size: 1em;
+            /* Weight - Peso da Fonte */
+            font-weight: bold;
+
+            /* Margin e Padding */
+            /*margin: 10px;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 100px;
+            margin-bottom: 300px; */
+            /* margin: 10px 0px 11px 102px; */
+            margin: 10px 15px;
+            padding: 20px;
+            /* border-radius: 0px 50px 0px 50px; */
+        }
+        main {
+            /* Adicionando Bordas */
+            border: 1px solid black;
+            /* Bordas Arredondadas */
+            border-radius: 20px;
+            /* width - Largura do Elemento */
+            width: 80%;
+            /* height - Altura do Elemento */
+            height: 150px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        footer p {
+            color: blue;
+        }
+        /* O # referencia o id */
+        #text-color-green {
+            color: green;   
+        }
+        /* O ponto (.) referencia a class */
+        .text-color-red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>DigitalStore</h2>
+        <p>Menu</p>
+    </header>
+    <main>
+        Conteúdo
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi voluptatem, ratione possimus optio cum deserunt temporibus enim distinctio quae hic impedit, fuga perspiciatis. Ab magnam accusantium sunt delectus laboriosam!
+        </p>
+    </main>
+    <footer>
+        <p id="text-color-green">Texto 1</p>
+        <p class="text-color-red">Texto 2</p>
+        <p>Texto 3</p>
+        <p class="text-color-red">Texto 4</p>
+    </footer>
+</body>
+</html>

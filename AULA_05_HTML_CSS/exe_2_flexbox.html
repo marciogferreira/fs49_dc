@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        header{
+            background-color: yellow;
+            height: 150px;
+            display: flex;
+        }
+        #logomarca {
+            background-color: red;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+        #menu {
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+        }
+        #menu ul {
+            display: flex;
+        }
+        #menu ul li {
+            margin: 10px;
+            list-style: none;
+        }
+        #menu ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logomarca">
+            <img height="100%" src="https://images.vexels.com/media/users/3/142746/isolated/lists/47d775591801dfdbc68746cefb13d8e8-logomarca-retangular-de-diamante.png" alt="">
+        </div>
+        <div id="menu">
+            <nav>
+                 <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>

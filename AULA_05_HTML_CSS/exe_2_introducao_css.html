@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao CSS</title>
+</head>
+<body>
+    <h1>3 Formas de utilizar o CSS</h1>
+    <h4>Exemplo de CSS</h4>
+    <pre>
+        {
+            propriedade: valor;
+            color: red;
+            background: yellow;
+        }
+    </pre>
+    <ul>
+        <li>
+            1ª - CSS Inline
+            <p>CSS Inline é o código que fica dentro da tag</p>
+            <p>Exemplo:</p>
+            <p style="color: red; background: yellow;">Aqui vai CSS</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            2ª - CSS Interno
+            <p>CSS Interno fica declarado dentro da Tag head</p>
+            <pre>
+                Exemplo:
+                 	&lt;head>
+                            &lt;style>
+                                elemento {
+                                    color: red;
+                                }
+                            &lt;/style>
+                 	&lt;/head>
+            </pre>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            3ª Forma - CSS Externo
+            <p>CSS Externo fica no arquivo de css.</p>
+            <pre>
+                Exemplo:
+                style.css
+                E é chamado dentro da tag head. Exemplo:
+                &lt;head>
+                        &lt;link rel="stylesheet" href="style.css" />
+                &lt;/head>
+            </pre>
+        </li>
+    </ul>
+</body>
+</html>
