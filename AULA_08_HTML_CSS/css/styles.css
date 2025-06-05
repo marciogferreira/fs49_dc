@@ -16,11 +16,18 @@ header #logo {
 header #menu {
     width: 80%;
 }
+/* MAIN - PRINCIPAL */
 main {
     padding: 10px;
     background-color: #CCC;
 }
 
+.colunas {
+    display: flex;
+}
+
+
+/* FOOTER - RODAPÉ */
 /* github.com/marciogferreira/fs49_dc */
 footer {
     background-color: #333;
@@ -28,6 +35,16 @@ footer {
     padding: 10px;
     
     display: flex;
+}
+
+.coluna-1 {
+    width: 100%;
+    padding: 15px;
+}
+.coluna-2 {
+    width: 50%;
+    padding: 15px;
+    
 }
 .coluna-3{
     /* border: 1px solid white; */
