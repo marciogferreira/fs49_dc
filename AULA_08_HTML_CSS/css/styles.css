@@ -2,17 +2,35 @@
     margin: 0;
     padding: 0;
 }
+body {
+    overflow-x: auto;
+}
 header {
     height: 150px;
     background-color: #F7F7F7;
+    display: flex;
+}
+header #logo {
+    width: 20%;
+}
+header #menu {
+    width: 80%;
 }
 main {
     padding: 10px;
     background-color: #CCC;
 }
+
+/* github.com/marciogferreira/fs49_dc */
 footer {
     background-color: #333;
     color: white;
-    padding: 10px
+    padding: 10px;
+    
+    display: flex;
 }
-
+.coluna-3{
+    /* border: 1px solid white; */
+    width: 33.33%;
+    padding: 15px;
+}
