@@ -38,16 +38,17 @@ header #menu {
 }
 
 #menu ul li a {
+
     text-decoration: none;
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: color 500ms, border 1s, font 250ms;
 }
 
 #menu ul li a:hover {
-    font-size: 10em;
+    font-size: 1em;
     color: rgb(228, 17, 112);
-    border-bottom: 50px solid rgb(228, 17, 112);
+    border-bottom: 1px solid rgb(228, 17, 112);
 }
 
 /* MAIN - PRINCIPAL */
@@ -84,4 +85,33 @@ footer {
     /* border: 1px solid white; */
     width: 33.33%;
     padding: 15px;
+}
+
+
+/* RESPONSIVE - MOBILE - de 0px a 500px */
+@media screen  and (max-width: 575px) {
+    .colunas {
+        flex-direction: column;
+    }
+    .coluna-3 {
+        width: 100%;
+        padding: 10px;
+    }
+    .coluna-2 {
+        width: 100%;
+    }
+}
+
+/* RESPONSIVE - TABLET - de 0px a 500px */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .colunas {
+        flex-direction: column;
+    }
+    .coluna-3 {
+        width: 100%;
+        padding: 10px;
+    }
+    .coluna-2 {
+        width: 100%;
+    }
 }
