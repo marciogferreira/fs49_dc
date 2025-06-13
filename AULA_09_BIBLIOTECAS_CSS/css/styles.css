@@ -1,0 +1,20 @@
+header {
+    background: black url('../images/header.jpg');
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    min-height: 200px;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+nav .nav-link:hover {
+    color: gray;
+}
+
+/* REMOVER bg-body-tertiary */
+/* NavBar */
+/* active */
+/* disabled */
