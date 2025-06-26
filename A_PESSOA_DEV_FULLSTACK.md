@@ -1,5 +1,3 @@
-
-```markdown
 # Entendendo as Profissões: Frontend, Backend, Banco de Dados e Full Stack
 
 Este documento tem como objetivo explicar de forma clara e objetiva o que fazem os profissionais das áreas de **Frontend**, **Backend**, **Banco de Dados** e **Full Stack** no desenvolvimento de sistemas e aplicações web.
@@ -80,8 +78,3 @@ O **Desenvolvedor Full Stack** é aquele que transita com fluidez entre o **fron
 ## 🧠 Conclusão
 
 Cada uma dessas áreas exige habilidades específicas, mas todas trabalham juntas para construir aplicações modernas e eficientes. O **Full Stack** não substitui especialistas, mas é um profissional versátil, capaz de conectar todos os pontos da arquitetura de um sistema.
-
----
-
-> Esperamos que este material te ajude a entender melhor essas profissões e a escolher qual caminho seguir na área de desenvolvimento! 🚀
-```
