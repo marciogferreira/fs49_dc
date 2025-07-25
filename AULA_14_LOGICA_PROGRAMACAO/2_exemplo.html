@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // OPERADORES ARITMETICOS
+        // + ADICAO
+        // - SUBTRACAO
+        // / DIVISAO
+        // * MULTIPLICACAO
+        // ** EXPOENTE
+        // ++ INCREMENTO
+        // -- DECREMENTO
+        var numero = 10
+        document.write(++numero)
+
+        // OPERADORES DE COMPARACAO
+        var numero1 = "10" // string
+        var numero2 = 10 // number
+
+        var resultado = numero1 == numero2 
+        // Não Compara Tipo, Apenas Compara Valor
+        alert(resultado) // True
+
+        var resultado = numero1 === numero2 
+        // Compara Tipo e Compara Valor 
+        alert(resultado) // False
+
+        var resultado = numero1 >= numero2
+        var resultado = numero1 <= numero2
+        var resultado = numero1 > numero2
+        var resultado = numero1 < numero2
+        var resultado = numero1 != numero2
+        // != Diferente no Valor e Não no Tipo  
+
+        var resultado = numero1 !== numero2
+        // !== Diferente no Valor e No Tipo
+        
+        // IF TERNARIO
+        var resultado = numero1 > numero2 ? "É Maior" : "É menor"
+        document.write("<br >" + resultado)
+        var resultado = numero1 > numero2 ? "É Maior" : numero1 == numero2 ? "É igual" : "É menor"
+        document.write("<br >" + resultado)
+        
+        if(numero1 > numero2) {
+            // Bloco - Escopo do IF
+            alert("É maior")
+        } else {
+            // Bloco - Escopo do Else
+            if(numero1 == numero2) {
+                alert("É Igual")
+            } else {
+                alert("É menor")
+            }
+        }
+        
+        // OPERADORES DE ATRIBUIÇÃO
+        var valor = 10
+        
+        valor += 5
+        valor += 5
+        valor -= 5
+        valor *= 2
+        
+        valor = (2 * 3) + (1 / (2 + 1)) 
+        var n1 = 8.5
+        var n2 = 9.5
+        var media = 2 / (n1 + n2) 
+        
+        console.log(valor)
+        
+    </script>
+</body>
+</html>

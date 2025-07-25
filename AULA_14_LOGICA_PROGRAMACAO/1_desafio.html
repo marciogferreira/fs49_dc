@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1. Crie um programa que receba 2 notas, calcule
+        // e exiba a média dessas notas. Se a média for maior
+        // ou igual a 7, exiba "AProvado", se não "REprovado".charAt
+
+        var nota1 = prompt("Digite a Nota 1")
+        var nota2 = prompt("Digite a Nota 2")
+    
+        nota1 = parseFloat(nota1)
+        nota2 = parseFloat(nota2)
+        document.write(`
+            Nota 1: ${nota1} <br />
+            Nota 2: ${nota2} <br />
+        `)
+        var media = (nota1 + nota2) / 2
+        if(media >= 7) {
+            console.log("Aprovado")
+        } else {
+            console.log("Reprovado")
+        }
+
+    </script>
+</body>
+</html>

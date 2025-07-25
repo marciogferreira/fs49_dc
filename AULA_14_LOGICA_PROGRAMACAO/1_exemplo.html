@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01</title>
+    <script>
+
+    </script>
+    <style>
+        div {
+            background-color: #CCC;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula de Lógica de Programação</h1>
+
+        
+    <script>
+       // OPERADORES: + - / * % 
+        var numero1 = 10
+        var numero2 = 20
+        var total = numero1 + numero2
+        document.write(total)
+        // -------------------------
+        // Crie um programa que receba dois numeros, 
+        // some e exiba o resultado na tela.
+        var idade = prompt("Qual sua idade?")
+        console.log(typeof idade)
+        idade = parseInt(idade)
+        console.log(typeof idade)
+        idade = idade + 10
+        document.write("<br /> Idade: " + idade)
+        // ------------
+        // 2. Usando variáveis e prompts, crie um programa
+        // que receba 3 numeros, some e exiba o resultado.
+        // document.write()
+        // console.log()
+        
+
+        var valor = Number(prompt("Texto"))
+
+        document.write("<br />" + valor)
+        document.write("<h1>" + valor + "</h1>")
+        document.write(`<h1>${valor}</h1>`)
+        var nome_gestor = prompt("Informe o nome do Gestor")
+        var nome_colaborador = prompt("Informe o nome do Colaborador(a)")
+        
+        document.write(`<div>Prezado(a) ${nome_gestor},
+            <br />
+            
+            Espero que esta mensagem o(a) encontre bem.
+            <br />
+            Gostaria de solicitar a oportunidade de conversar sobre uma possível reavaliação do meu salário. Tenho me dedicado intensamente às minhas atividades e acredito que minha evolução profissional e as contribuições que venho trazendo à equipe justificam esta conversa.
+            <br />
+            Desde que iniciei na [nome do cargo/departamento], venho me empenhando para superar metas, colaborar com colegas e buscar soluções que tragam resultados positivos para a empresa. Entre as minhas entregas recentes, destaco [mencionar brevemente conquistas ou projetos relevantes].
+            <br />
+            Nome: ${nome_colaborador}
+            </div>
+        `)
+
+        
+        // TEMPLATE STRING
+
+
+
+    </script>
+</body>
+</html>
