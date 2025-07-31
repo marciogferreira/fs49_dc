@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // 4 a 6.9 - Recuperacao
+        // if(nota >= 7) {
+        //     document.write("Aprovado")
+        // } else {
+        //     if(nota >= 4) {
+        //         document.write("Recuperação")
+        //     } else {
+        //         document.write("Reprovado")
+        //     }
+        // }
+
+
+        var nota = 7
+        if(nota >= 7) {
+            document.write("Aprovado")
+        } else if(nota >= 4) {
+            document.write("Recuperação")
+        } else {
+            document.write("Reprovado")
+        }
+
+        var presencas = 75
+
+        if(nota >= 7 && presencas >= 75) {
+            document.write("Aprovado no Curso FS")
+        } else if(nota < 7) {
+            document.write("Reprovado por Nota: " + nota)
+        } else {
+            document.write("Reprovado por Falta Qtde. Presenças " + presencas)
+        }
+
+
+        // && - USADO PARA VÁRIAS CONDICIONAIS - E
+        // || - USADO PARA VÁRIAS CONDICIONAIS - OU
+
+
+        // VARIÁVEIS
+        // var nome = 'Marcio'
+        // var nome = 'Alex'
+        // nome = 'Max'
+        
+        // let e const
+        // let nome = 'José'
+        // nome = 'Joao'
+        // nome = 'Josue'
+        
+        // const Pi = 3.14
+        // Pi = 3.15
+
+
+        const login = prompt("Digite o Login")
+        const senha = prompt("Digite a Senha")
+        // Verifica se na base de dados existe o login
+        if(login == 'admin' && senha == '123') {
+            alert("Acesso Liberado!")
+        } else {
+            alert("Acesso Negado!")
+        }
+
+        const isAdmin = false
+        const isLogged = true
+        const isSuperAdmin = true
+
+        if((isAdmin && isLogged) || isSuperAdmin) {
+            alert("Acesso Liberado!")
+        } else {
+            alert("Acesso Negado!")
+        }
+
+    </script>
+</body>
+</html>

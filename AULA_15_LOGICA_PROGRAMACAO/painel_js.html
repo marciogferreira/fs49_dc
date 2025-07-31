@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #resultado {
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Resultado </h1>
+        <id id="resultado">
+            Aquiii...
+        </id>
+    </div>
+
+    <script>
+        const n1 = Number(prompt("Valor 1"))
+        const n2 = Number(prompt("Valor 2"))
+        const resultado = n1 + n2
+
+        const div = document.getElementById('resultado')
+        div.innerHTML = resultado
+    </script>
+</body>
+</html>
